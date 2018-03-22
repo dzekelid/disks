@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListLocalDisks&k=1:
+  /?Action=ListLocalDisks:
     get:
       summary: ' List Local Disks '
       description: Returns a list of the gateway's local disks
