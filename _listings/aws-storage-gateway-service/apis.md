@@ -20,9 +20,9 @@ tags:
 - Database
 - Data
 - Amazon Web Services
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/disks/master/_listings/aws-storage-gateway-service/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/disks/master/_listings/aws-storage-gateway-service/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Storage Gateway Service API
@@ -34,7 +34,7 @@ apis:
   tags: Disks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/disks/master/_listings/aws-storage-gateway-service/action-listlocaldisks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disks/master/_listings/aws-storage-gateway-service/action-listlocaldisks-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
