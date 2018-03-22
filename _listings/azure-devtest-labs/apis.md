@@ -11,9 +11,9 @@ tags:
 - Stack Network
 - Orchestration
 - Microsoft
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/disks/master/_listings/azure-devtest-labs/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/disks/master/_listings/azure-devtest-labs/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure DevTest Labs API
@@ -25,7 +25,7 @@ apis:
   tags: Disks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/disks/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-users-username-disks-name-detach-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disks/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-users-username-disks-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/devtest-lab/
