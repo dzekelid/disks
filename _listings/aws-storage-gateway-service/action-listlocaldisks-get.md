@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API List Local Disks
   version: 1.0.0
+  description: Returns a list of the gateway's local disks.
 schemes:
 - http
 produces:
