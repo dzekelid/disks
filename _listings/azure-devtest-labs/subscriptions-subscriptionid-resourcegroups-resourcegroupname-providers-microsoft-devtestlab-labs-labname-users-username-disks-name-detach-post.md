@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DevTestLabsClient
-  description: The DevTest Labs Client.
+  title: Azure DevTest Labs API Disks Detach
+  description: Detach and break the lease of the disk attached to the virtual machine.
+    This operation can take a while to complete.
   version: 1.0.0
 host: management.azure.com
 basePath: /
