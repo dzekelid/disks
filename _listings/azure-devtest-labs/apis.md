@@ -26,16 +26,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/disks/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-users-username-disks-name-detach-post.md
-- name: Azure DevTest Labs API Disks Attach
-  description: Attach and create the lease of the disk to the virtual machine. This
-    operation can take a while to complete.
+- name: Azure DevTest Labs API Disks Detach
+  description: Detach and break the lease of the disk attached to the virtual machine.
+    This operation can take a while to complete.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
   humanURL: https://azure.microsoft.com/en-us/services/devtest-lab/
   baseURL: http:://management.azure.com//
   tags: Disks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disks/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-users-username-disks-name-attach-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disks/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-users-username-disks-name-detach-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/devtest-lab/
