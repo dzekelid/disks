@@ -1,58 +1,30 @@
 ---
 name: AWS Storage Gateway Service
+x-slug: aws-storage-gateway-service
 description: The AWS Storage Gateway service seamlessly enables hybrid storage between
-  on-premises storage environments andnbsp;the AWS Cloud. It combines a multi-protocol
-  storage appliance with highly efficient network connectivity tonbsp;Amazon cloud
-  storagenbsp;services, deliveringnbsp; local performance with virtually unlimited
-  scale. Customers use it in remote offices and datacenters for hybrid cloud workloads,
-  backup and restore, archive, disaster recovery, and tiered storage.nThe Storage
-  Gateway virtual appliance connects seamlessly to your local infrastructure as a
-  file server, as a volume, or as a virtual tape library (VTL). This seamless connection
-  makes it simple for organizations to augment existing on-premises storage investments
-  with the high scalability, extreme durability and low cost of cloud storage. nbsp;
+  on-premises storage environments andthe AWS Cloud. It combines a multi-protocol
+  storage appliance with highly efficient network connectivity toAmazon cloud storageservices,
+  delivering local performance with virtually unlimited scale. Customers use it in
+  remote offices and datacenters for hybrid cloud workloads, backup and restore, archive,
+  disaster recovery, and tiered storage.The Storage Gateway virtual appliance connects
+  seamlessly to your local infrastructure as a file server, as a volume, or as a virtual
+  tape library (VTL). This seamless connection makes it simple for organizations to
+  augment existing on-premises storage investments with the high scalability, extreme
+  durability and low cost of cloud storage.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Gateway
-- Deployment
-- Database
-- Data
-- Amazon Web Services
-created: "2018-03-23"
-modified: "2018-03-23"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/disks/master/_listings/aws-storage-gateway-service/apis.yaml
+x-alexaRank: "0"
+tags: Disks
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/disks/master/_listings/aws-storage-gateway-service/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS Storage Gateway Service API
-  description: The AWS Storage Gateway service seamlessly enables hybrid storage between
-    on-premises storage environments andnbsp;the AWS Cloud
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
-  humanURL: ""
-  baseURL: :///
-  tags: Disks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disks/master/_listings/aws-storage-gateway-service/action-listlocaldisks-get.md
-- name: AWS Storage Gateway Service API List Local Disks
-  description: Returns a list of the gateway's local disks.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
-  humanURL: https://aws.amazon.com/storagegateway/
-  baseURL: http:://{host}//
-  tags: Disks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disks/master/_listings/aws-storage-gateway-service/action-listlocaldisks-get.md
+apis: []
 x-common:
-- type: x-documentation
-  url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
-- type: x-faq
-  url: https://aws.amazon.com/storagegateway/faqs/
-- type: x-pricing
-  url: https://aws.amazon.com/storagegateway/pricing/
-- type: x-website
-  url: https://aws.amazon.com/storagegateway/
+- type: x-api-gallery
+  url: http://aws.step.functions.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.storage.gateway.service.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
 - type: x-faq
