@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Google Compute Engine
 x-complete: 0
 info:
-  title: Google Compute Engine API Get Disks
-  description: Retrieves an aggregated list of persistent disks.
+  title: Google Compute Engine API Attach Disk to Zone Instance
+  description: Attaches a Disk resource to an instance.
   contact:
     name: Google
     url: https://google.com

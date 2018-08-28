@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Google Compute Engine
 x-complete: 0
 info:
-  title: Google Compute Engine API Get Disks
-  description: Retrieves an aggregated list of persistent disks.
+  title: Google Compute Engine API Get Zone Disk Types
+  description: Retrieves a list of disk types available to the specified project.
   contact:
     name: Google
     url: https://google.com

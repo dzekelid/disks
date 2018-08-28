@@ -3,8 +3,9 @@ swagger: "2.0"
 x-collection-name: Azure DevTest Labs
 x-complete: 0
 info:
-  title: Azure DevTest Labs API Disks Get
-  description: Get disk.
+  title: Azure DevTest Labs API Disks Create Or Update
+  description: Create or replace an existing disk. This operation can take a while
+    to complete.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -57,6 +58,34 @@ paths:
       - in: query
         name: $expand
         description: Specify the $expand query
+      - in: path
+        name: labName
+        description: The name of the lab
+      - in: path
+        name: name
+        description: The name of the disk
+      - in: query
+        name: No Name
+      - in: path
+        name: userName
+        description: The name of the user profile
+      responses:
+        200:
+          description: OK
+      tags:
+      - Disks
+    put:
+      summary: Disks Create Or Update
+      description: Create or replace an existing disk. This operation can take a while
+        to complete.
+      operationId: Disks_CreateOrUpdate
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisksname-put
+      parameters:
+      - in: body
+        name: disk
+        description: A Disk
+        schema:
+          $ref: '#/definitions/holder'
       - in: path
         name: labName
         description: The name of the lab

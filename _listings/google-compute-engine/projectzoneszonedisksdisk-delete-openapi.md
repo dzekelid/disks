@@ -3,8 +3,10 @@ swagger: "2.0"
 x-collection-name: Google Compute Engine
 x-complete: 0
 info:
-  title: Google Compute Engine API Get Disks
-  description: Retrieves an aggregated list of persistent disks.
+  title: Google Compute Engine API Delete Zone Disk
+  description: Deletes the specified persistent disk. Deleting a disk removes its
+    data permanently and is irreversible. However, deleting a disk does not delete
+    any snapshots previously made from the disk. You must separately delete snapshots.
   contact:
     name: Google
     url: https://google.com

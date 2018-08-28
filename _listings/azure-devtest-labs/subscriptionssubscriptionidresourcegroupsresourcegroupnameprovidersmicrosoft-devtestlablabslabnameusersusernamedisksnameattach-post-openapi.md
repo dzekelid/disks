@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: Azure DevTest Labs
-x-complete: 1
+x-complete: 0
 info:
-  title: DevTestLabsClient
-  description: the-devtest-labs-client-
+  title: Azure DevTest Labs API Disks Attach
+  description: Attach and create the lease of the disk to the virtual machine. This
+    operation can take a while to complete.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -151,32 +153,17 @@ paths:
           description: OK
       tags:
       - Disks
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{labName}/users/{userName}/disks/{name}/detach
-  : post:
-      summary: Disks Detach
-      description: Detach and break the lease of the disk attached to the virtual
-        machine. This operation can take a while to complete.
-      operationId: Disks_Detach
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisksnamedetach-post
-      parameters:
-      - in: body
-        name: detachDiskProperties
-        description: Properties of the disk to detach
-        schema:
-          $ref: '#/definitions/holder'
-      - in: path
-        name: labName
-        description: The name of the lab
-      - in: path
-        name: name
-        description: The name of the disk
-      - in: query
-        name: No Name
-      - in: path
-        name: userName
-        description: The name of the user profile
-      responses:
-        200:
-          description: OK
-      tags:
-      - Disks
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

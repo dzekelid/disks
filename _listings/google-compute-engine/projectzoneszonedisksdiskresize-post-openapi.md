@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Google Compute Engine
 x-complete: 0
 info:
-  title: Google Compute Engine API Get Disks
-  description: Retrieves an aggregated list of persistent disks.
+  title: Google Compute Engine API Resize Zone Disk
+  description: Resizes the specified persistent disk.
   contact:
     name: Google
     url: https://google.com
